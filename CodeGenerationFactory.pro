@@ -24,6 +24,7 @@ HEADERS += \
     csharp/csharpprintoperatorunit.h \
     java/javaclassunit.h \
     java/javamethodunit.h \
+    java/javaprintoperatorunit.h \
     methodunit.h \
     printoperatorunit.h \
     unit.h
