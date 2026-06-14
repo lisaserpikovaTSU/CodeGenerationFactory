@@ -23,6 +23,7 @@ HEADERS += \
     csharp/csharpclassunit.h \
     csharp/csharpmethodunit.h \
     csharp/csharpprintoperatorunit.h \
+    csharpcodefactory.h \
     icodefactory.h \
     java/javaclassunit.h \
     java/javamethodunit.h \
