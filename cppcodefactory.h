@@ -9,7 +9,7 @@
 class CppCodeFactory: public ICodeFactory
 {
 public:
-    std::shared_ptr<ClassUnit> createClassUnit(const std::string& name) override {
+    std::shared_ptr<ClassUnit> createClassUnit(const std::string& name, Unit::Flags /*modifier*/ = 0) override {
         return std::make_shared<CppClassUnit>(name);
     }
     std::shared_ptr<MethodUnit> createMethodUnit(const std::string& name,
