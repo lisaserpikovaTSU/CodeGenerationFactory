@@ -19,6 +19,7 @@ HEADERS += \
     cpp/cppclassunit.h \
     cpp/cppmethodunit.h \
     cpp/cppprintoperatorunit.h \
+    cppcodefactory.h \
     csharp/csharpclassunit.h \
     csharp/csharpmethodunit.h \
     csharp/csharpprintoperatorunit.h \
