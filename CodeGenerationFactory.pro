@@ -16,6 +16,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     classunit.h \
+    codegenerator.h \
     cpp/cppclassunit.h \
     cpp/cppmethodunit.h \
     cpp/cppprintoperatorunit.h \
