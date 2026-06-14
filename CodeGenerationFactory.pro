@@ -21,6 +21,7 @@ HEADERS += \
     cpp/cppprintoperatorunit.h \
     csharp/csharpclassunit.h \
     csharp/csharpmethodunit.h \
+    csharp/csharpprintoperatorunit.h \
     java/javaclassunit.h \
     java/javamethodunit.h \
     methodunit.h \
