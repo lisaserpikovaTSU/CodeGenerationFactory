@@ -3,6 +3,8 @@
 
 #include "icodefactory.h"
 #include "csharp/csharpclassunit.h"
+#include "csharp/csharpmethodunit.h"
+#include "csharp/csharpprintoperatorunit.h"
 
 class CSharpCodeFactory: public ICodeFactory
 {
@@ -12,10 +14,10 @@ public:
     }
     std::shared_ptr<MethodUnit> createMethodUnit(const std::string& name,
                                                  const std::string& returnType, Flags flags = 0) override {
-        return new CSharpMethodUnit(name, returnType, flags);
+        return std::make_shared<CSharpMethodUnit>(name, returnType, flags);
     }
     std::shared_ptr<PrintOperatorUnit> createPrintOperatorUnit(const std::string& text) override {
-        return new CSharpPrintOperatorUnit(text);
+        return std::make_shared<CSharpPrintOperatorUnit>(text);
     }
 };
 
