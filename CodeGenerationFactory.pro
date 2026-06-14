@@ -17,6 +17,10 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     classunit.h \
     cpp/cppclassunit.h \
+    cpp/cppmethodunit.h \
     csharp/csharpclassunit.h \
+    csharp/csharpmethodunit.h \
     java/javaclassunit.h \
+    java/javamethodunit.h \
+    methodunit.h \
     unit.h
