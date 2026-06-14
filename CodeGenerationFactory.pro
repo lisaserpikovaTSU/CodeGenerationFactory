@@ -21,5 +21,6 @@ HEADERS += \
     csharp/csharpclassunit.h \
     csharp/csharpmethodunit.h \
     java/javaclassunit.h \
+    java/javamethodunit.h \
     methodunit.h \
     unit.h
