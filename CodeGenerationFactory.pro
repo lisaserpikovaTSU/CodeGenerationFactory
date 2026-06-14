@@ -18,4 +18,5 @@ HEADERS += \
     classunit.h \
     cpp/cppclassunit.h \
     csharp/csharpclassunit.h \
+    java/javaclassunit.h \
     unit.h
