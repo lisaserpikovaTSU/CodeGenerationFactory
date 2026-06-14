@@ -23,4 +23,5 @@ HEADERS += \
     java/javaclassunit.h \
     java/javamethodunit.h \
     methodunit.h \
+    printoperatorunit.h \
     unit.h
