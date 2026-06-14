@@ -28,6 +28,7 @@ HEADERS += \
     java/javaclassunit.h \
     java/javamethodunit.h \
     java/javaprintoperatorunit.h \
+    javacodefactory.h \
     methodunit.h \
     printoperatorunit.h \
     unit.h
