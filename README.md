@@ -31,7 +31,7 @@
 
 ### 2.2 Архитектура UML
 
-<img width="1304" height="657" alt="Снимок экрана 2026-06-15 в 07 37 56" src="https://github.com/user-attachments/assets/daabfbc0-ecd1-438a-a745-8afe6db9033a" />  
+<img width="1284" height="664" alt="Снимок экрана 2026-06-15 в 09 26 35" src="https://github.com/user-attachments/assets/aac73dfe-6005-4a4f-84c8-2993186b30db" />  
 
 ---
 ## 3. Тестирование
