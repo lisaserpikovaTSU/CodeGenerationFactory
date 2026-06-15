@@ -23,7 +23,7 @@ public:
 
     static const std::vector< std::string > ACCESS_MODIFIERS;
 
-    explicit CSharpClassUnit( const std::string& name, ClassModifier modifier ) : ClassUnit( name ), m_modifier(modifier) {
+    CSharpClassUnit( const std::string& name, ClassModifier modifier ) : ClassUnit( name ), m_modifier(modifier) {
         m_fields.resize( ACCESS_MODIFIERS.size() );
     }
 
