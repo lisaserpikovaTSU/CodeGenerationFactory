@@ -16,15 +16,20 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     classunit.h \
+    codegenerator.h \
     cpp/cppclassunit.h \
     cpp/cppmethodunit.h \
     cpp/cppprintoperatorunit.h \
+    cppcodefactory.h \
     csharp/csharpclassunit.h \
     csharp/csharpmethodunit.h \
     csharp/csharpprintoperatorunit.h \
+    csharpcodefactory.h \
+    icodefactory.h \
     java/javaclassunit.h \
     java/javamethodunit.h \
     java/javaprintoperatorunit.h \
+    javacodefactory.h \
     methodunit.h \
     printoperatorunit.h \
     unit.h
